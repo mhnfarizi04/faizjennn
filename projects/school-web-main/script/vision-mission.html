@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Web</title>
+    <style>
+        @font-face {
+            font-family: "poppins";
+            src: url('../font/Poppins-Medium.ttf') format('truetype'),
+                url('../font/Poppins-ExtraBold.ttf') format('truetype'),
+                url('../font/Poppins-Thin.ttf') format('truetype');
+        }
+
+        * {
+            font-family: poppins;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .center-page {
+            display: flex;
+            justify-content: center;
+            /* Horizontal */
+            align-items: center;
+            /* Vertikal */
+            min-height: 100vh;
+            /* Full tinggi layar */
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../img/ihbs.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body style="background-color: rgb(255, 255, 255);">
+    <div class="center-page">
+
+
+        <!-- Title -->
+        <div class="container">
+
+
+            <div class="row gx-0 mb-lg-3 mb-0 mt-3 mt-lg-0">
+                <div class="col-12">
+                    <div class="display-1 d-none d-lg-block fw-bold text-center" style="letter-spacing: 10px;">SEKOLAH
+                        DASAR ISLAM</div>
+                </div>
+                <div class="col-12">
+                    <div class="h4 d-none d-lg-block fw-light text-center" style="letter-spacing: 20px;">KAB. BOGOR -
+                        LEUWILIANG</div>
+                </div>
+            </div>
+
+            <!-- Navbar -->
+
+            <div class="row my-4 gx-0 d-none d-lg-flex">
+                <div class="col-12">
+                    <div class="row d-flex text-center gap-2 justify-content-center">
+                        <div class="col-2">
+                            <a class="nav-link active text-secondary" aria-current="page" href="index.html">Home</a>
+                        </div>
+                        <div class="col-2">
+                            <a class="nav-link text-secondary" aria-current="page" href="about.html">About</a>
+                        </div>
+                        <div class="col-2">
+                            <a class="nav-link active text-decoration-underline" aria-current="page"
+                                style="color: rgb(14, 179, 14)" href="vision-mission.html">Vision & Mission</a>
+                        </div>
+                        <div class="col-2">
+                            <a class="nav-link active text-secondary" aria-current="page"
+                                href="memories.html">Memories</a>
+                        </div>
+                        <div class="col-2">
+                            <a class="nav-link active text-secondary" aria-current="page" href="location.html">Maps</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End Navbar -->
+
+            <!-- Start Navbar Mobile -->
+
+            <nav class="navbar">
+                <div class="container-fluid d-lg-none d-flex">
+                    <a class="navbar-brand h5 fw-bold" href="#">SEKOLAH DASAR ISLAM</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="vision-mission.html"
+                                    style="color: rgb(14, 179, 14)">Vision & Mission</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="memories.html">Memories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="location.html">Maps</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- End Navbar Mobile -->
+
+            <!-- Start Carousel -->
+
+            <div class="container row gx-0 justify-content-center">
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="bi bi-lightbulb-fill"></i>
+                        </div>
+                        <div class="col-10">
+                            <h5>Our Vision</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eius consectetur at
+                                atque, ullam doloremque enim optio tenetur mollitia quo recusandae? Beatae nam facilis
+                                vel suscipit in officia accusantium minima.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eius consectetur at
+                                atque, ullam doloremque enim optio tenetur mollitia quo recusandae? Beatae nam facilis
+                                vel suscipit in officia accusantium minima.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 text-end">
+                    <div class="row">
+                        <div class="col-10">
+                            <h5>Our Mission</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eius consectetur at
+                                atque, ullam doloremque enim optio tenetur mollitia quo recusandae? Beatae nam facilis
+                                vel suscipit in officia accusantium minima.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eius consectetur at
+                                atque, ullam doloremque enim optio tenetur mollitia quo recusandae? Beatae nam facilis
+                                vel suscipit in officia accusantium minima.</p>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-bar-chart-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End Carousel -->
+
+            <!-- Start Sosmed -->
+
+            <div class="row gx-0 align-items-center mb-5 mb-lg-0">
+                <div class="col-12 justify-content-center">
+                    <div class="d-flex col-12 justify-content-center gap-5 mt-5">
+                        <i class="bi text-light px-2 py-1 rounded bg-secondary fw-bold bi-tiktok"></i>
+                        <i class="bi text-light px-2 py-1 rounded bg-secondary bi-browser-chrome"></i>
+                        <i class="bi text-light px-2 py-1 rounded bg-secondary bi-youtube"></i>
+                        <i class="bi text-light px-2 py-1 rounded bg-secondary bi-telephone-fill"></i>
+                        <i class="bi text-light px-2 py-1 rounded bg-secondary bi-instagram"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End Sosmed -->
+        </div>
+
+    </div>
+    <!-- Script JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
